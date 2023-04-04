@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import './Components/Shared/StyleAssets/Styles-Presets.scss'
+import LayoutComponent from './Components/Layout/Layout-Component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src='http://picsum.photos/500' style={{ borderRadius: '50%' }} className="App-logo" alt="logo" />
-        <p>
-          this is for the testing purpose
-        </p>
-      </header>
+    <div className="root-of-application">
+      <LayoutComponent />
+      <h1> this is for test</h1>
     </div>
   );
 }
