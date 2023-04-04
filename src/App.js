@@ -5,8 +5,10 @@ import LayoutComponent from './Components/Layout/Layout-Component';
 function App() {
   return (
     <div className="root-of-application">
-      <LayoutComponent />
+      {/* <LayoutComponent /> */}
+      <h1> this is for test</h1>
       <h1> this is for test again </h1>
+
     </div>
   );
 }
