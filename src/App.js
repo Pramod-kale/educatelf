@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="root-of-application">
       {/* <LayoutComponent /> */}
-      <h1>this is for testing QA branch </h1>
+      <h1>this is for testing QA server</h1>
 
     </div>
   );
